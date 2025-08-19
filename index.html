@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM USING HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>ENTER YOUR INFORMATION</h1>
+    </header>
+    <form action="end.html">
+      <div>
+        <label for="name">NAME:</label>
+        <input type="text" placeholder="Your Name here" name="name" required />
+      </div>
+      <div>
+        <br />
+        <label for="degree">Choose Your Degree </label>
+        <select name="degree">
+          <option>B.TECH</option>
+          <option>M.TECH</option>
+          <option>B.Arch</option>
+          <option>BCA</option>
+          <option>MCA</option>
+        </select>
+      </div>
+      <div>
+        <br />
+        <label for="spec">SPECIALISATION:</label>
+        <input
+          type="text"
+          name="spec"
+          placeholder="Enter Your Specialiasation"
+          required
+        />
+      </div>
+      <br />
+      <label for="lang">WHICH LANGUAGE YOU HAVE WORK/WORKED ON</label>
+      <select>
+        <option>Python</option>
+        <option>C</option>
+        <option>C++</option>
+        <option>Java</option>
+        <option>Kotlin</option>
+        <option>None</option>
+      </select>
+      <div>
+        <br>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
